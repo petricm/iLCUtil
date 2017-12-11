@@ -3,7 +3,7 @@
 # @author Jan Engels, Desy IT
 CMAKE_MINIMUM_REQUIRED(VERSION 3.4.3 FATAL_ERROR)
 ########################################################
-
+CMAKE_POLUCY(SET CMP0057 NEW)
 
 # project name
 PROJECT( ILCUTIL )
